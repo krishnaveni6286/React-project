@@ -1,0 +1,78 @@
+.aboutHome {
+    height: auto;
+}
+.aboutHome #heading {
+    text-align: left;
+    padding: 2px;
+}
+.aboutHome .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutHome .right{
+    padding: 50px 25px;
+}
+.aboutHome .items{
+    margin-top: 50px;
+}
+.aboutHome .item{
+    background-color: #fff;
+    margin-top: 30px; padding: 20px;
+    transition: 0.5s;
+}
+.aboutHome .img{
+    width: 250px;
+}
+.aboutHome img{
+    width: 70px;
+    height: 70px;
+}
+.aboutHome .item h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.aboutHome .item:hover{
+    background-color: rgb(73, 73, 185);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
+}
+.awrapper{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVlK2dscaZyoJD8AVfVMduHJldBLvLgPrRLA&s");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 30vh;
+   color: #fff;
+
+}
+.awrapper .box{
+    padding: 60px 0;
+}
+.awrapper img {
+    font-size: 0px;
+    height: 60px;
+    margin-right: 10px;
+}
+.awrapper h1{
+    font-size: 35px;
+}
+.awrapper h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+@media screen  and (max-width: 768px){
+    .aboutHome{
+        margin-top: 60%;
+    }
+    .aboutHome .container {
+        flex-direction: column-reverse;
+    }
+    .aboutHome .row {
+        width: 120%;
+    }
+    .awrapper{
+        height: 30vh;
+    }
+}
