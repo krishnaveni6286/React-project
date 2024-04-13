@@ -92,7 +92,8 @@ p{
   font-size: 18px;
 }
 .back{
-   background-image:url("https://st3.depositphotos.com/10614052/37185/i/450/depositphotos_371854138-stock-photo-female-graduating-student-color-background.jpg") ;
+   /* background-image:url("https://st3.depositphotos.com/10614052/37185/i/450/depositphotos_371854138-stock-photo-female-graduating-student-color-background.jpg") ; */
+   background-image: url("https://i.pinimg.com/474x/88/dd/c9/88ddc915f9e2c23ead01b561767b9e67.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: absolute;

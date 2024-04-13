@@ -7,6 +7,9 @@ import About from './components/about/about';
 import CourseHome from './components/allcourses/coursehome';
 import Team from './components/teams/team';
 import Price from './components/pricing/price';
+import Blog from './components/blog/blog';
+import Contact from './components/contacts/contact';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -20,8 +23,11 @@ function App() {
       <Route path='/courses'  Component={CourseHome}></Route>
       <Route path='/team'  Component={Team}></Route>
       <Route path='/pricing'  Component={Price}></Route>
+      <Route path='/journal'  Component={Blog}></Route>
+      <Route path='/contact'  Component={Contact}></Route>
     
       </Routes>
+      <Footer/>
       </Router>
     </>
   );
