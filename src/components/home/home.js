@@ -14,11 +14,11 @@ const Home =()=>{
     return(
         <div>
             <Hero/>
-            <AboutCard/>
+            {/* <AboutCard/>
             <HAbout/>
             <Test />
             <Hblog/>
-            <Hprice/>
+            <Hprice/> */}
             
             
             

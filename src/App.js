@@ -27,7 +27,7 @@ function App() {
       <Route path='/contact'  Component={Contact}></Route>
     
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
       </Router>
     </>
   );

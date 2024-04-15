@@ -9,7 +9,7 @@ const AboutCard =()=>{
      <section className="aboutHome">
         <div className="container flexSB">
             <div className="left row">
-                <img src="https://i.pinimg.com/474x/c9/44/bc/c944bc16f77af80e0022a0a2c7f086d7.jpg" alt=""/>
+                <img src="https://p1.pxfuel.com/preview/271/256/958/student-education-training-school-books-college.jpg" alt=""/>
             </div>
             <div className="right row">
                 <Title subtitle="LEARN ANYTHING" title="Benefits About Online Learning Expertise " />

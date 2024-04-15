@@ -1,5 +1,6 @@
 .hero{
-    background-image:url("https://st3.depositphotos.com/10614052/37185/i/450/depositphotos_371854138-stock-photo-female-graduating-student-color-background.jpg") ;
+    /* background-image:url("https://st3.depositphotos.com/10614052/37185/i/450/depositphotos_371854138-stock-photo-female-graduating-student-color-background.jpg") ; */
+    background-image: url("https://st3.depositphotos.com/10614052/37185/i/450/depositphotos_371854138-stock-photo-female-graduating-student-color-background.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
