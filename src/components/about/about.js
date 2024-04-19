@@ -5,7 +5,7 @@ import AutoCard from "./aboutcard"
 const About =()=>{
     return(
         <div>
-           <Back title="About Us"/>
+           <Back />
            <AutoCard/>
         </div>
     )

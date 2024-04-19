@@ -7,6 +7,9 @@ const AboutCard =()=>{
     return(
         <>
      <section className="aboutHome">
+        <div className="image1">
+
+        </div>
         <div className="container flexSB">
             <div className="left row">
                 <img src="https://p1.pxfuel.com/preview/271/256/958/student-education-training-school-books-college.jpg" alt=""/>

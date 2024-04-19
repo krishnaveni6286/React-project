@@ -6,7 +6,8 @@ import OnlineCourse from "./onlinecourses";
 const CourseHome =()=>{
     return (
         <>
-           <Back title="Explore Courses" />
+           {/* <Back title="Explore Courses" style={backgrounimg={}} /> */}
+           <Back/>
            <CourseCard/>
            <OnlineCourse/>
         </>

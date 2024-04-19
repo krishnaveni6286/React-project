@@ -6,7 +6,7 @@ import "./team.css"
 const Team =()=>{
     return(
         <>
-       <Back title="Team" /> 
+       <Back /> 
        <section className="team padding">
         <div className="container grid">
             <TeamCard/>

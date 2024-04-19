@@ -6,6 +6,9 @@ const OnlineCourse =()=>{
     return(
         <>
         <section className="online">
+            <div className="image2">
+                
+            </div>
             <div className="container">
                 <Title subtitle="COURSES" title="Browse Our Online Courses" />
 

@@ -4,6 +4,9 @@ import { team } from "../dummydata/dummydata";
 const TeamCard =()=>{
     return(
         <>
+        <div className="image3">
+            
+        </div>
         {team.map((val) => (
             <div className="items shadow">
                 <div className="img">

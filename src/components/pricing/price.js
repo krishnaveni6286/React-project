@@ -7,7 +7,7 @@ import Faq from "./faq";
 const Price = () => {
     return(
         <>
-        <Back  title="Choose The Right Plan"/>
+        <Back  />
         <section className="price padding">
             <div className="container grid" >
                 <PriceCard/>

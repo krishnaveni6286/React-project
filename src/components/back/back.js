@@ -7,7 +7,7 @@ const Back = ({ title }) => {
   return (
     <div>
       <section className="back">
-        <h2>home / {location.pathname.split("/")[1]}</h2>
+        {/* <h2>home / {location.pathname.split("/")[1]}</h2> */}
         <h1>{title}</h1>
       </section>
       <div className="marigin"></div>

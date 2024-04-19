@@ -5,11 +5,15 @@ import "./price.css"
 const PriceCard = () =>{
     return(
         <>
+
+        <div className="image4">
+            
+        </div>
         {price.map((val) => (
             <div className="items shadow" >
                 <h4>{val.name}</h4>
                 <h1>
-                    <span> $ </span>
+                    <span>  ₹ </span>
                     {val.price}
                 </h1>
                 <p>{val.desc}</p>

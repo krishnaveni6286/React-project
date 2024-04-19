@@ -1,3 +1,22 @@
+
+.image6{
+    
+  
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/31/21/42/1000_F_231214232_09QrsIxkEotaHZ6dyUNF5ynoLfAoLjGB.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+     width: 100%;
+     height: 100vh;
+     padding-top: 30%;
+     padding-right: 50px;
+     color: #fff;
+     text-align: center;
+ 
+}
 .blog img{
     width: 100%;
     height: 100%;

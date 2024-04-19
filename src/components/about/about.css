@@ -1,6 +1,25 @@
 .aboutHome {
     height: auto;
 }
+
+.image1{
+    
+  
+        background-image: url("https://wallpapercave.com/wp/cxZpvov.jpg");
+         background-size: cover;
+         background-attachment: fixed;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1;
+         width: 100%;
+         height: 100vh;
+         padding-top: 30%;
+         padding-right: 50px;
+         color: #fff;
+         text-align: center;
+     
+}
 .aboutHome #heading {
     text-align: left;
     padding: 2px;

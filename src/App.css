@@ -91,8 +91,8 @@ p{
   line-height: 30px;
   font-size: 18px;
 }
-.back{
-   /* background-image:url("https://i.pinimg.com/474x/eb/71/c0/eb71c0c122fc4102080357bbdca4acc3.jpg") ; */
+/* .back{
+  
    background-image: url("https://i.pinimg.com/474x/59/c6/5f/59c65fd6fb9967a644eb1d57f5e6357d.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -106,7 +106,7 @@ p{
     padding-right: 50px;
     color: #fff;
     text-align: center;
-}
+} */
 .back h1{
   font-size: 100px;
   font-weight: 400;

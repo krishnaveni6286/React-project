@@ -5,8 +5,12 @@ import { blog } from "../dummydata/dummydata";
 const BlogCard =() => {
     return(
         <>
+        <div className="image6">
+            
+        </div>
         {blog.map((val) => {
             return (
+
                 <div className="items shadow">
                  <div className="img">
                     <img src={val.cover} alt="" />
