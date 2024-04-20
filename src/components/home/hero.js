@@ -1,6 +1,7 @@
 import React from "react"
 import "./hero.css" 
 import Title from "../title/title"
+import { Link } from "react-router-dom"
 
 
 
@@ -16,9 +17,9 @@ const Hero =()=>{
                     <button className="primary-btn">
                        GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
                     </button>
-                    <button >
+                    <Link to="/Courses" >   <button >
                        VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
-                    </button>
+                    </button></Link> 
                 </div>   
                 </div>
             </div>
