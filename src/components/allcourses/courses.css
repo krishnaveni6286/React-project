@@ -14,8 +14,11 @@ color: #fff;
 text-align: center;
 }
 
+
+  
 .coursesCard{
     padding: 50px 0;
+    
 
 }
 .coursesCard .items {
@@ -127,4 +130,51 @@ text-align: center;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+
+/* .coursesCard {
+    padding: 50px 0;
+} */
+
+/* Flexbox container styling */
+.container.grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: Adjust gap between items */
+}
+
+/* Card item default styling */
+.container.grid2 .items {
+    flex: 1 1 calc(33.333% - 20px); /* Default: 3 cards per row */
+    box-sizing: border-box;
+}
+/* @media (max-width: 726px) {
+    .coursesCard {
+        padding: 20px 0;
+    }
+} */
+@media (max-width: 726px) {
+    .coursesCard {
+        padding: 20px 0;
+      
+        flex-direction: column; /* Stack cards in a column */
+        overflow-x: scroll;
+        
+ 
+    }
+}
+@media (max-width: 726px) {
+    .coursesCard {
+        padding: 20px 0;
+    }
+
+    .container.grid2 {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .container.grid2 .items {
+        flex: 1 1 100%; /* Full width for each item */
+    }
 }

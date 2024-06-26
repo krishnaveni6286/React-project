@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
   padding: 0;
@@ -65,12 +65,12 @@ button:hover {
 .primary-btn{
   background-color: rgb(73, 73, 185);
   color: #fff;
-}
+} 
 
 /* title */
 
 
- #heading {
+  #heading {
   text-align: center;
   padding:  20px 0;
  
@@ -90,7 +90,7 @@ button:hover {
 p{
   line-height: 30px;
   font-size: 18px;
-}
+} 
 /* .back{
   
    background-image: url("https://i.pinimg.com/474x/59/c6/5f/59c65fd6fb9967a644eb1d57f5e6357d.jpg");
@@ -107,7 +107,7 @@ p{
     color: #fff;
     text-align: center;
 } */
-.back h1{
+ .back h1{
   font-size: 100px;
   font-weight: 400;
 }
@@ -162,7 +162,7 @@ p{
   .grid3,
   .grid2,
   .grid{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 0fr);
   }
   .back{
     background-position: center;
@@ -174,4 +174,4 @@ p{
   }
   
 }
-
+ 

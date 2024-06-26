@@ -68,3 +68,11 @@
 .team .items:hover .overlay{
     opacity: 1;
 }
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}

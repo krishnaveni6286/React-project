@@ -1,3 +1,9 @@
+/* .testimonal .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .testimonal  .items {
     padding: 30px;
     transition:0.5s
@@ -47,4 +53,77 @@
     background-color: #fff;
     color:  rgb(73, 73, 185);
    
+} */
+
+/* Default styling */
+.container1 {
+    margin: 0 auto;
+    padding: 0 20px; /* Adjust padding as needed */
+    max-width: 1200px; /* Adjust max-width as needed */
+}
+
+.grid21 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap between items */
+}
+
+.items1 {
+    flex: 1 1 calc(50% - 20px); /* Two items per row with gap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; /* Adjust margin for spacing */
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img1 {
+    position: relative;
+}
+
+.img1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #000;
+} */
+
+.name1 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.name1 span {
+    font-size: 14px;
+    color: #666;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Media query for max-width 768px */
+@media (max-width: 768px) {
+    .grid21 {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .items {
+        flex: 1 1 100%; /* Full width for each item */
+        margin: 0; /* Remove margin for full width */
+    }
 }
