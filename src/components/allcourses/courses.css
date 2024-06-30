@@ -166,9 +166,10 @@ text-align: center;
     }
 }
 @media (max-width: 726px) {
-    .coursesCard {
-        padding: 20px 0;
-    }
+    /* .coursesCard {
+        padding: 0px 0;
+        
+    } */
 
     .container.grid2 {
         flex-direction: column; /* Stack items vertically */
@@ -177,4 +178,5 @@ text-align: center;
     .container.grid2 .items {
         flex: 1 1 100%; /* Full width for each item */
     }
+    
 }
