@@ -60,6 +60,9 @@
     word-spacing: 5px;
 }
 @media screen and (max-width: 768px){
+    .contact {
+        margin-top: -55%;
+    }
     
     .contact .container{
         flex-direction:  column;
@@ -75,4 +78,5 @@
        
     }
 }
+
 

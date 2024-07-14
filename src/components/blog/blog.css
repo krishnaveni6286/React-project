@@ -52,3 +52,12 @@
 .blog p {
     color: rgb(91, 90, 90);
 }
+@media (max-width: 726px) {
+    .blog{
+        padding: 0;
+        margin-top: -35%;
+
+        
+ 
+    }
+}

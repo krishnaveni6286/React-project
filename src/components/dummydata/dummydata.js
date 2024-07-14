@@ -228,7 +228,7 @@ export const online = [
     cover: "./images/music1.png",
     hoverCover: "./images/music.png",
     courseName: "Music",
-    course: "120 Courses",
+    course: "65 Courses",
   },
   {
     cover: "./images/bag1.png",

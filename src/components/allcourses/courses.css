@@ -32,6 +32,7 @@ text-align: center;
     border-radius: 50%;
     background-color:rgb(73, 73, 185) ;
     padding: 15px;
+    
 }
 .coursesCard img{
     width: 100%;
@@ -41,10 +42,11 @@ text-align: center;
 .coursesCard .text {
     margin-left: 10px;
     text-align: left;
+
 }
 .coursesCard .text h1{
-     font-size: 22px; 
-     font-weight: 500; 
+     font-size: 20px; 
+     font-weight: 450; 
     line-height: 30px; 
 
 }
@@ -61,7 +63,8 @@ text-align: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-right: 3px;
 }
 .coursesCard .details .box {
     display: flex;
@@ -104,15 +107,15 @@ text-align: center;
     object-fit: cover;
 }
 .online h1 {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 450;
+    font-size: 15px;
     margin: 20px 0;
     line-height: 30px;
 }
 .online span {
     background-color: #f8f8f8;
-    padding: 5px 20px;
-    font-weight: 500;
+    /* padding: 5px 20px; */
+    font-weight: 450;
     font-size:  15px;
     color: rgb(73, 73, 185);
     border-radius:  5px;
@@ -157,13 +160,14 @@ text-align: center;
 } */
 @media (max-width: 726px) {
     .coursesCard {
-        padding: 20px 0;
-      
+        padding: 0;
+        margin-top: -35%;
         flex-direction: column; /* Stack cards in a column */
         overflow-x: scroll;
         
  
     }
+    
 }
 @media (max-width: 726px) {
     /* .coursesCard {

@@ -64,3 +64,13 @@
     background-color: rgb(73, 73, 185);
     color: #fff;
 }
+
+@media (max-width: 726px) {
+    .price {
+        padding: 0;
+        margin-top: -35%;
+       
+        
+ 
+    }
+}
