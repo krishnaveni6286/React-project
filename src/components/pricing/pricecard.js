@@ -7,7 +7,7 @@ const PriceCard = () =>{
         <>
 
         <div className="image4">
-            
+           <h1 className="heading" style={{color:"white",marginTop:"5px"}}>Prices</h1> 
         </div>
         {price.map((val) => (
             <div className="items shadow" >

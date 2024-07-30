@@ -5,7 +5,7 @@ const TeamCard =()=>{
     return(
         <>
         <div className="image3">
-            
+         <h1 className="heading">Our Team</h1>   
         </div>
         {team.map((val) => (
             <div className="items shadow">

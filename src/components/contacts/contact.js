@@ -9,7 +9,7 @@ const Contact = () => {
         <>
         <Back  />
         <div className="image5">
-            
+            <h1 className="heading">Contact</h1>
         </div>
         <section className="contact padding" >
             <div className="container shadow flexSB">

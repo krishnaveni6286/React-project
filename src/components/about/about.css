@@ -13,12 +13,15 @@
          left: 0;
          z-index: -1;
          width: 100%;
-         height: 100vh;
+         height: 50vh;
          padding-top: 30%;
          padding-right: 50px;
          color: #fff;
          text-align: center;
      
+}
+.aboutHome{
+    margin-top: -150px;
 }
 
 .aboutHome #heading {
@@ -85,7 +88,7 @@
 }
 @media screen  and (max-width: 768px){
     .aboutHome{
-        margin-top: -50%;
+        margin-top: -120%;
     }
     .aboutHome .container {
         flex-direction: column-reverse;

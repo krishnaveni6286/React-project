@@ -6,7 +6,7 @@ const BlogCard =() => {
     return(
         <>
         <div className="image6">
-            
+          <h1 className="heading" style={{fontSize:"50px",marginTop:"5px"}}>Journal</h1>  
         </div>
         {blog.map((val) => {
             return (

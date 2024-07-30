@@ -7,18 +7,28 @@ top: 0;
 left: 0;
 z-index: -1;
 width: 100%;
-height: 100vh;
+height: 50vh;
 padding-top: 30%;
 padding-right: 50px;
 color: #fff;
 text-align: center;
 }
+.heading {
+    position: absolute; /* Allows positioning relative to the parent */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    color: white; /* Change the text color to make it visible */
+    z-index: 1; /* Ensure the heading is above the background */
+    
+  }
+  
 
 
   
 .coursesCard{
     padding: 50px 0;
-    
+    margin-top: -230px;
 
 }
 .coursesCard .items {
@@ -161,7 +171,7 @@ text-align: center;
 @media (max-width: 726px) {
     .coursesCard {
         padding: 0;
-        margin-top: -35%;
+        margin-top: -105%;
         flex-direction: column; /* Stack cards in a column */
         overflow-x: scroll;
         
@@ -170,10 +180,10 @@ text-align: center;
     
 }
 @media (max-width: 726px) {
-    /* .coursesCard {
-        padding: 0px 0;
-        
-    } */
+    .heading{
+        margin-top: 20px !important;
+    }
+
 
     .container.grid2 {
         flex-direction: column; /* Stack items vertically */
@@ -182,5 +192,6 @@ text-align: center;
     .container.grid2 .items {
         flex: 1 1 100%; /* Full width for each item */
     }
+
     
 }

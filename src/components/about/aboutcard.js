@@ -8,7 +8,7 @@ const AboutCard =()=>{
         <>
      <section className="aboutHome">
         <div className="image1">
-
+            <h1 className="heading">About</h1>
         </div>
         <div className="container flexSB">
             <div className="left row">
