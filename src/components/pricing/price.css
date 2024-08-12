@@ -77,3 +77,11 @@
  
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .price {
+        margin-top: 50px;
+    }
+.image4{
+    height: 30vh;
+}}

@@ -37,20 +37,6 @@
     }
   }
   
-  /* @media (max-width: 480px) {
-    .logo h1 {
-      font-size: 1.25rem;
-    }
-  
-    .logo span {
-      font-size: 0.75rem;
-    }
-  
-    .icon {
-      font-size: 1rem;
-    }
-  } */
-  
 
 /*________________header_____________*/
 header{
@@ -116,4 +102,31 @@ header ul li a:hover{
         background-color:  rgb(73, 73, 185);
     }
 } 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .start {
+      clip-path: none;
+      padding: 20px 50px;
+  }
+  
+  header {
+      margin: 0 15px;
+      /* background-color: rgb(73, 73, 185); */
+  }
+
+  header ul {
+      padding: 20px 15px;
+  }
+  
+  header ul li {
+      margin-right: 30px;
+  }
+
+  header ul li a {
+      font-weight: 600;
+      font-size: 18px;
+  }
+  
+  
+}
 

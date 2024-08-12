@@ -195,3 +195,13 @@ text-align: center;
 
     
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .coursesCard {
+        margin-top: 280px;
+    }
+.image2{
+    height: 30vh;
+}
+}

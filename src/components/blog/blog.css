@@ -64,3 +64,37 @@
  
     }
 }
+/* Media query for tablet screens between 768px and 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Adjusting the .image6 section */
+    .image6 {
+        height: 30vh; /* Increase height for better visibility */
+        padding-top: 20%; /* Adjust padding for tablet screens */
+        background-position: center; /* Center the background image */
+    }
+
+    /* Adjusting the .blog section */
+    .blog {
+        margin-top: 250px; /* Adjust margin to fit the layout */
+        padding: 20px 10px; /* Add some padding for better spacing */
+    }
+
+    .blog .text {
+        padding: 20px 10px; /* Adjust padding inside the text container */
+    }
+
+    .blog h1 {
+        font-size: 22px; /* Increase font size for better readability */
+        line-height: 30px; /* Adjust line height */
+        margin: 15px 0; /* Adjust margin */
+    }
+
+    .blog span {
+        font-size: 15px; /* Increase font size for better visibility */
+    }
+
+    .blog p {
+        font-size: 16px; /* Increase font size for readability */
+    }
+}

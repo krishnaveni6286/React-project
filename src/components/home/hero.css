@@ -22,6 +22,9 @@
     padding: 0;
 }
  @media screen and (max-width:786px){
+    .row{
+        margin-left: 20px;
+    }
     .margin{
         height: 100vh;
     }
@@ -34,3 +37,29 @@
         width: 120%;
     }
 } 
+
+
+@media screen and (max-width: 768px) {
+    p {
+        color: white; /* Change color to white */
+    }
+}
+
+
+/* Media query for tablet screens between 768px and 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+        background-position: center;
+        padding-top: 40%;
+        height: 100vh; /* Adjust height for tablets */
+    }
+    .row {
+        margin-left: 10px; /* Adjust margin for better alignment */
+    }
+    .hero #heading {
+        text-align: center; /* Center align the heading for tablets */
+    }
+    .hero .row {
+        width: 100%; /* Ensure the row takes full width on tablets */
+    }
+}
